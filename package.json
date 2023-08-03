@@ -2,7 +2,7 @@
   "name": "@imtbl/zkevm-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate Hardhat project for EVM smart contract development in Solidity",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "clean": "npx hardhat clean",
     "test": "npx hardhat test",
@@ -16,11 +16,26 @@
     "@openzeppelin/contracts": "^4.8.1",
     "dotenv": "^16.0.3",
     "hardhat": "^2.12.7",
-    "typescript": "^4.9.5"
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
+    "@imtbl/sdk": "^0.4.2-alpha.1",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
     "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
     "@typechain/ethers-v5": "^10.2.0",
-    "@typechain/hardhat": "^6.1.5"
+    "@typechain/hardhat": "^6.1.5",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.2.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.1.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }

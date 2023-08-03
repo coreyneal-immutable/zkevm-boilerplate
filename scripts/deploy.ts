@@ -18,10 +18,10 @@ async function deploy() {
   );
   const contract: MyERC721 = await MyERC721.connect(deployer).deploy(
     deployer.address, // owner
-    "Imaginary Immutable Iguanas", // name
-    "III", // symbol
-    "https://example-base-uri.com/", // baseURI
-    "https://example-contract-uri.com/", // contractURI
+    "Blockchain Logos", // name
+    "BLOGOS", // symbol
+    "https://emerald-successive-armadillo-196.mypinata.cloud/ipfs/QmWEBicB62ZXZJ9QSMTHT9hbGXF8tqgMh9KCQNiaNpzqXt/nft-metadata/", // baseURI
+    "https://emerald-successive-armadillo-196.mypinata.cloud/ipfs/QmWEBicB62ZXZJ9QSMTHT9hbGXF8tqgMh9KCQNiaNpzqXt/contract-metadata/contract.json", // contractURI
     deployer.address, // royalty recipient
     ethers.BigNumber.from("2000"), // fee numerator
   );

@@ -1,0 +1,25 @@
+{
+    "id": 1,
+    "image": "https://emerald-successive-armadillo-196.mypinata.cloud/ipfs/QmPM1BbVbAUB5DRe4L5gogMhVXBv6VSWnvNJyS7PWp1qdR",
+    "token_id": "1",
+    "background_color": null,
+    "animation_url": null,
+    "youtube_url": null,
+    "name": "Immutable Old",
+    "description": "This NFT is my first zkEVM NFT created on Immutable",
+    "external_url": null,
+    "attributes" : [
+        {
+            "trait_type": "Blockchain",
+            "value": "Immutable"
+        },
+        {
+            "trait_type": "Rarity",
+            "value": "Legendary"
+        },
+        {
+            "trait_type": "Shine",
+            "value": "Diamond"
+        }
+    ]
+}

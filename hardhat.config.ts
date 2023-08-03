@@ -10,7 +10,7 @@ const config: HardhatUserConfig = {
   solidity: "0.8.17",
   networks: {
     immutableZkevmTestnet: {
-      url: "https://rpc.testnet.immutable.com",
+      url: "https://zkevm-rpc.sandbox.x.immutable.com/",
       accounts:
         process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
